@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		pMIHoERoa7K5oiLDSw7bJQaC5Mg=
+		0lCP5P0g4g71n3g38djy1k5i+4s=
 		</data>
 		<key>CustomAlertMessageView.nib/objects-13.0+.nib</key>
 		<data>
-		T1ROXo7NSZj+EIS1kISg45pbA7I=
+		U4rnrHaMi06maObgymOZtwTAVyI=
 		</data>
 		<key>CustomAlertMessageView.nib/runtime.nib</key>
 		<data>
-		d3UhccYDXNecnBNtbcrgVJ1o8JQ=
+		jQO1LeBysVe+sBWyzU/rDsdeFo8=
 		</data>
 		<key>CustomConfirmView.nib/objects-13.0+.nib</key>
 		<data>
-		CtSgS1I0OG5HSTTTZsn/Y0GUScs=
+		wdooMka0et/qd/Jl4Kjmhg0VxGA=
 		</data>
 		<key>CustomConfirmView.nib/runtime.nib</key>
 		<data>
-		fLM1TNNMw8aro7lvwM3PC3I7TjA=
+		OE8WcilnbN07F06BmOYvk1Xqvvk=
 		</data>
 		<key>Headers/AppBoxoSDK-Swift.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iE3JQGp9ppIOxCJIlZNLgwNWzIA=
+		iTXgLA8+E43tGhH0GoSJzAL+B8k=
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -63,35 +63,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1pDy/pCd3op52BNKO8w74XPLNKKkcGYdiqTYqTG2Nd0=
+			ZdlQYS64zTRcfF208KgWhwjMPvbU5b1O+HXBRK7ZtxE=
 			</data>
 		</dict>
 		<key>CustomAlertMessageView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7aFZEk0/Wl+P6ANAUVdh0LdX+NSAUm2JdtOYzbulr7s=
+			26FMn1aiU311m76/L7pqfnKEsFJVojEImrt0VwPu/kU=
 			</data>
 		</dict>
 		<key>CustomAlertMessageView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6evwZKwCVUoFTpvO5IoMv6wf+jZ9pEAthGu9muCHA7g=
+			5/x+MH3pc9xPyYWNxyptPxsrIRWulTv7aRDGEqBfQ2I=
 			</data>
 		</dict>
 		<key>CustomConfirmView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iib+jf5tiMh/j1V+eHrw2Qr69sQOckW52SwntN/6UtI=
+			oCmuADASAfwD8WzUSopaz1cl6OnwMdvxMayrwxSMFrM=
 			</data>
 		</dict>
 		<key>CustomConfirmView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vbNc2aNSsCZo1EygSWKXhnxR7yqAFJcnEghHO823tIU=
+			hYD1WmoMkUr/dUuoUpS3RNxyZnzwfdAKA2jJEm2fRcI=
 			</data>
 		</dict>
 		<key>Headers/AppBoxoSDK-Swift.h</key>
