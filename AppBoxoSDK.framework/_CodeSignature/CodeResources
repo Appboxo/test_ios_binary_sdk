@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kphgWGLrb+yrmWh7FGwhasbL+fY=
+		gr+zFxh4nB0YuyvauF+6ZgGZHn4=
 		</data>
 		<key>CustomAlertMessageView.nib/objects-13.0+.nib</key>
 		<data>
-		ZmlKtJXgf28pQUJAPHYvK+V0ocU=
+		JqSUNUHbg/rOV7FaH4o/OioAG4A=
 		</data>
 		<key>CustomAlertMessageView.nib/runtime.nib</key>
 		<data>
-		UFxK54cG3F5huQdhifPCqKTLxzQ=
+		VGnTgC97UiVorKrv85D1sTQHIDE=
 		</data>
 		<key>CustomConfirmView.nib/objects-13.0+.nib</key>
 		<data>
-		txF4qf2tO7e0x5vu8Zuui7RshZw=
+		c+HHEXaV2uM1zCeJvXu0HzP301U=
 		</data>
 		<key>CustomConfirmView.nib/runtime.nib</key>
 		<data>
-		4/ngVd2UlM9GgAmcHT3MTa9tgYQ=
+		GCcF+jdzEpwV5bRBwT5XPW4wru8=
 		</data>
 		<key>Headers/AppBoxoSDK-Swift.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7c0BxU9/ihuC7J5vGVNQUJFbwOc=
+		2IUsKQe9WmNp63isv2Obe5ZTA1U=
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		7c0BxU9/ihuC7J5vGVNQUJFbwOc=
+		2IUsKQe9WmNp63isv2Obe5ZTA1U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,35 +63,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+D4v7CXbpHtBHy5PcO3FUXXHsb8Ho1iW8KwAlCM1DA=
+			yxcIi0HTLDucG50ZbQVqEznW4kaxcytdAUmv2l+h3aQ=
 			</data>
 		</dict>
 		<key>CustomAlertMessageView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nXUhVsxIUG+h74lUCAIQcpeyCxSQ5LGZL0rtztOhNBE=
+			SezYtRNwLi+zXko+x6Je3p3uen9lFyzunpyId567uQA=
 			</data>
 		</dict>
 		<key>CustomAlertMessageView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vAK9t4K0hxYbi+nmISbI9iNZBAEO2fyg7IGHAvycoos=
+			JOWyBO6J6xXHxpGEQFFwGK38S2M+74mk+UQotAJjdrM=
 			</data>
 		</dict>
 		<key>CustomConfirmView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MjXxkkUmtv+wn2zNYsfgWEDt5fBCPNdfF4+SexT1xHw=
+			lbNsMuynaHipgDmUWDq8XkUtMgGH9Vx7yI7g86FDszQ=
 			</data>
 		</dict>
 		<key>CustomConfirmView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eC6MK5dmR9xQJ14kTZ52ltreRetTUYYlvuaXcK+6bUc=
+			rnXM32u745kxs5Pvf8kWZhYW/MSbm4rIjRzLCMycXkY=
 			</data>
 		</dict>
 		<key>Headers/AppBoxoSDK-Swift.h</key>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SDCLjss7h6X2XChBMLnIqEk7YtDAkIsUWiCiX/CsyKI=
+			PUs3S8PC9y+ODkSb2o4oPlint0jA8HoBgMpXumrJkzs=
 			</data>
 		</dict>
 		<key>Modules/AppBoxoSDK.swiftmodule/arm64.swiftdoc</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SDCLjss7h6X2XChBMLnIqEk7YtDAkIsUWiCiX/CsyKI=
+			PUs3S8PC9y+ODkSb2o4oPlint0jA8HoBgMpXumrJkzs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
