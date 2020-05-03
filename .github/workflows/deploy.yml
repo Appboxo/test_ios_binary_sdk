@@ -21,5 +21,4 @@ jobs:
     - name: Update cocoapods
       run: |
         pod lib lint --allow-warnings
-        pod trunk register azamat.kushmanov@gmail.com 'Azamat Kushmanov' --description='CI Automation'
         pod trunk push AppBoxoSDK.podspec
