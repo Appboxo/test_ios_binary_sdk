@@ -14,19 +14,12 @@ jobs:
         git config --global user.email "azamat.kushmanov@gmail.com"
         git config --global user.name "Azamat Kushmanov"
         git config --global url."https://${{ secrets.token }}:@github.com/".insteadOf "https://github.com/"
-    # - name: Set git tag
-    #   run: |
-    #     git tag `cat version.txt`
-    #     git push --tags
-    - name: Install podspec-bump
-      run: npm install -g podspec-bump
-    # - name: Update cocoapods
-    #   run: |
-    #     export NEW_VERSION=`echo \`agvtool mvers -terse1\``
-    #     git clone https://github.com/Appboxo/ios-sdk-binary.git
-    #     cp -R AppBoxoSDK.zip ios-sdk-binary/AppBoxoSDK.framework.zip
-    #     cd ios-sdk-binary
-    #     echo ${NEW_VERSION} > version.txt
-    #     git add .
-    #     git commit -m "updates AppboxoSDK version to ${NEW_VERSION}"
-    #     git push -u origin master
+    - name: Set git tag
+      run: |
+        git tag `cat version.txt`
+        git push --tags
+    - name: Update cocoapods
+      run: |
+        pod lib lint --allow-warnings
+        pod trunk register azamat.kushmanov@gmail.com 'Azamat Kushmanov' --description='CI Automation'
+        pod trunk push AppBoxoSDK.podspec
