@@ -20,5 +20,5 @@ jobs:
         git push --tags
     - name: Update cocoapods
       run: |
-        pod lib lint --allow-warnings
+        export COCOAPODS_TRUNK_TOKEN=${{secrets.COCOAPODS_TRUNK_TOKEN}}
         pod trunk push AppBoxoSDK.podspec
