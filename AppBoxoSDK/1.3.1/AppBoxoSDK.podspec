@@ -7,11 +7,7 @@ Pod::Spec.new do |s|
     s.name = "AppBoxoSDK"
     s.summary = "AppBox allows to run any web application on the fly."
     s.requires_arc = true
-<<<<<<< HEAD
-    s.version = "1.3.2"
-=======
     s.version = "1.3.1"
->>>>>>> d3ad320de50bb8889faad0664142d00c123f0df1
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author = { "Appboxo" => "signup@appboxo.com" }
     s.frameworks = "UIKit", "WebKit", "SafariServices", "CoreLocation"
