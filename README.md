@@ -9,6 +9,8 @@
   - Your project must target iOS 11.1 or later.
   - Swift projects must use Swift 5.0 or later.
   
+  
+  
 **CocoaPods installation**
     
    CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. 
@@ -16,13 +18,22 @@
     
     pod 'AppBoxoSDK'
 
+
+
+
 **Add Camera Usage Description in info.plist**
 
-  You will need first to reasoning about the camera use. For that you'll need to add the Privacy - Camera Usage Description 
-  (NSCameraUsageDescription) field in your Info.plist:
+  You will need to reasoning about the camera use. For that you'll need to add the Privacy - Camera Usage Description 
+  (NSCameraUsageDescription) field in your Info.plist
+
+**Add Privacy - Location When In Use Usage Description in info.plist**
   
-   ![alt text](https://cloud.githubusercontent.com/assets/798235/19264826/bc25b8dc-8fa2-11e6-9c13-17926384ebd1.png)
+  You will need to reasoning about the location use. For that you'll need to add the Privacy - Location When In Use Usage Description 
+  (NSLocationWhenInUseUsageDescription) field in your Info.plist
   
+
+
+
 
 **Import the AppBoxo module in your UIApplicationDelegate:**
     
@@ -43,9 +54,39 @@
     guard let miniApp = AppBoxo.shared.createMiniApp(appId: "app_id",
                                                      payload: "payload") else { return }
     miniApp.delegate = self // to receive CustomEvents
-    miniApp.open(navigationController: navigationController ?? UINavigationController())
+    miniApp.open(viewController: self)
 
-Here is an example project: https://github.com/Appboxo/ios_demo
+If miniApp was already created, Appboxo.createMiniApp(...) returns nil. It will be automatically destroyed after finishing miniApp view controller. Or you can use miniApp.close()
+
+
+**Handle custom events from miniApp.**
+
+    miniApp.delegate = self
+    
+And implement MiniAppDelegate
+
+    extension ViewController: MiniAppDelegate {
+        func didReceiveCustomEvent(miniApp: MiniApp, params: [String : Any]) {
+            let params = [
+                "message" : "message",
+                "id" : 1,
+                "checked" : true
+            ]
+            miniApp.sendEvent(params: params)
+        }
+    }
+
+
+To logout from all the miniapps within your mobile application use this method
+    
+    AppBoxo.shared.logout()
+
+
+
+Here is an example project: https://github.com/Appboxo/ios-sample-superapp
+
+
+
 
 ## License
 
