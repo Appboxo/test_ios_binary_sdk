@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
     s.swift_version = "4.2"
     
     
-    s.source = { :http => "https://github.com/Appboxo/appboxo_ios_binary/blob/#{s.version}/AppBoxoSDK.framework.zip?raw=true" }
+    s.source = { :http => "https://github.com/Appboxo/appboxo_ios_binary/blob/#{s.version}/AppBoxoSDK.xcframework.zip?raw=true" }
     
     s.exclude_files = "Classes/Exclude"
-    s.ios.vendored_frameworks = 'AppBoxoSDK.framework'
+    s.ios.vendored_frameworks = 'AppBoxoSDK.xcframework'
     
 end
 
