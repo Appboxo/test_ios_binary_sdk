@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.version = "1.3.7"
     s.license = "MIT"
     s.author = { "Appboxo" => "signup@appboxo.com" }
-    s.frameworks = "UIKit", "WebKit", "SafariServices", "CoreLocation"
+    s.frameworks = "UIKit", "WebKit", "SafariServices", "CoreLocation", "CoreMotion"
     s.homepage = "https://appboxo.com"
     s.documentation_url = "https://docs.appboxo.com/"
     s.dependency 'SwiftMessages'
