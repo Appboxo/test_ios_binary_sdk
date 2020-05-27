@@ -51,12 +51,8 @@
     
 **To open Miniapps, write this code in your ViewController**
     
-    guard let miniApp = AppBoxo.shared.createMiniApp(appId: "app_id",
-                                                     payload: "payload") else { return }
-    miniApp.delegate = self // to receive CustomEvents
+    let miniApp = AppBoxo.shared.createMiniApp(appId: "app_id", payload: "payload")
     miniApp.open(viewController: self)
-
-If miniApp was already created, Appboxo.createMiniApp(...) returns nil. It will be automatically destroyed after finishing miniApp view controller. Or you can use miniApp.close()
 
 
 **Handle custom events from miniApp.**
