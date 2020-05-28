@@ -1,0 +1,43 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2 effective-4.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name AppBoxoSDK
+import AVFoundation
+@_exported import AppBoxoSDK
+import CoreGraphics
+import CoreLocation
+import CoreMotion
+import Foundation
+import MapKit
+import SafariServices
+import Swift
+import SwiftMessages
+import UIKit
+import WebKit
+public class Config {
+  required public init(clientId: Swift.String)
+  @objc deinit
+}
+public class AppBoxo {
+  public static let shared: AppBoxoSDK.AppBoxo
+  required public init()
+  public func setConfig(config: AppBoxoSDK.Config)
+  public func getConfig() -> AppBoxoSDK.Config
+  public func createMiniApp(appId: Swift.String, payload: Swift.String = "") -> AppBoxoSDK.MiniApp
+  public func getMiniApp(appId: Swift.String) -> AppBoxoSDK.MiniApp?
+  public func logout()
+  public func destroy(appId: Swift.String)
+  @objc deinit
+}
+public protocol MiniAppDelegate {
+  func didReceiveCustomEvent(miniApp: AppBoxoSDK.MiniApp, params: [Swift.String : Any])
+}
+public class MiniApp {
+  public var appId: Swift.String
+  public var payload: Swift.String
+  public var delegate: AppBoxoSDK.MiniAppDelegate?
+  required public init(appId: Swift.String, payload: Swift.String = "")
+  public func open(viewController: UIKit.UIViewController)
+  public func sendEvent(params: [Swift.String : Any])
+  public func close()
+  @objc deinit
+}
