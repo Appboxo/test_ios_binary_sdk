@@ -13,6 +13,21 @@ import Swift
 import SwiftMessages
 import UIKit
 import WebKit
+public class MiniAppConfig {
+  public var color: AppBoxoSDK.MiniAppColor?
+  required public init()
+  public func setColor(color: AppBoxoSDK.MiniAppColor)
+  @objc deinit
+}
+public class MiniAppColor : Swift.Codable {
+  public var primaryColor: Swift.String?
+  public var secondaryColor: Swift.String?
+  public var tertiaryColor: Swift.String?
+  required public init(primary: Swift.String, secondary: Swift.String, tertiary: Swift.String)
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
 public class Config {
   required public init(clientId: Swift.String)
   @objc deinit
@@ -35,9 +50,11 @@ public class MiniApp {
   public var appId: Swift.String
   public var payload: Swift.String
   public var delegate: AppBoxoSDK.MiniAppDelegate?
+  public var config: AppBoxoSDK.MiniAppConfig?
   required public init(appId: Swift.String, payload: Swift.String = "")
   public func open(viewController: UIKit.UIViewController)
   public func sendEvent(params: [Swift.String : Any])
   public func close()
+  public func setConfig(config: AppBoxoSDK.MiniAppConfig?)
   @objc deinit
 }
