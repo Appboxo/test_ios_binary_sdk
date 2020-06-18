@@ -269,8 +269,10 @@ SWIFT_CLASS_NAMED("MiniAppColor")
 SWIFT_CLASS_NAMED("MiniAppConfig")
 @interface MiniAppConfig : NSObject
 @property (nonatomic, strong) MiniAppColor * _Nullable color;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithColor:(MiniAppColor * _Nullable)color OBJC_DESIGNATED_INITIALIZER;
 - (void)setColorWithColor:(MiniAppColor * _Nonnull)color;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 

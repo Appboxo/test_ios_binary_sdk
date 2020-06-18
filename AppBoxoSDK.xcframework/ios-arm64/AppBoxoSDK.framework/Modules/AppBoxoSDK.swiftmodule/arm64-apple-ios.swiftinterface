@@ -13,11 +13,12 @@ import Swift
 import SwiftMessages
 import UIKit
 import WebKit
-@_inheritsConvenienceInitializers @objc(MiniAppConfig) public class MiniAppConfig : ObjectiveC.NSObject {
+@objc(MiniAppConfig) public class MiniAppConfig : ObjectiveC.NSObject {
   @objc public var color: AppBoxoSDK.MiniAppColor?
-  @objc override dynamic public init()
+  @objc required public init(color: AppBoxoSDK.MiniAppColor?)
   @objc public func setColor(color: AppBoxoSDK.MiniAppColor)
   @objc deinit
+  @objc override dynamic public init()
 }
 @objc(MiniAppColor) public class MiniAppColor : ObjectiveC.NSObject, Swift.Codable {
   @objc public var primaryColor: Swift.String?
