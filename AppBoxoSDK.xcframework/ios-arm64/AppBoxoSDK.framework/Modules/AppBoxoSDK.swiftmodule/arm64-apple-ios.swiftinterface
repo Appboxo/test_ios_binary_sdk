@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2 effective-4.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)
+// swift-compiler-version: Apple Swift version 5.1.3 effective-4.2 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name AppBoxoSDK
 import AVFoundation
 @_exported import AppBoxoSDK
@@ -13,28 +13,28 @@ import Swift
 import SwiftMessages
 import UIKit
 import WebKit
-@_inheritsConvenienceInitializers @objc(MiniAppConfig) public class MiniAppConfig : ObjectiveC.NSObject {
+@objc(MiniAppConfig) public class MiniAppConfig : ObjectiveC.NSObject {
   @objc public var color: AppBoxoSDK.MiniAppColor?
   @objc public func setColor(color: AppBoxoSDK.MiniAppColor)
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc(MiniAppColor) public class MiniAppColor : ObjectiveC.NSObject, Swift.Codable {
   @objc public var primaryColor: Swift.String?
   @objc public var secondaryColor: Swift.String?
   @objc public var tertiaryColor: Swift.String?
   @objc(initWithPrimary:secondary:tertiary:) required public init(primary: Swift.String, secondary: Swift.String, tertiary: Swift.String)
-  @objc deinit
   @objc override dynamic public init()
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
 }
 @objc(Config) public class Config : ObjectiveC.NSObject {
   @objc(initWithClientId:) required public init(clientId: Swift.String)
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(AppBoxo) public class AppBoxo : ObjectiveC.NSObject {
+@objc(AppBoxo) public class AppBoxo : ObjectiveC.NSObject {
   @objc public static let shared: AppBoxoSDK.AppBoxo
   @objc(setConfig:) public func setConfig(config: AppBoxoSDK.Config)
   @objc(getConfig) public func getConfig() -> AppBoxoSDK.Config
