@@ -15,9 +15,9 @@ import UIKit
 import WebKit
 @_inheritsConvenienceInitializers @objc(MiniAppConfig) public class MiniAppConfig : ObjectiveC.NSObject {
   @objc public var color: AppBoxoSDK.MiniAppColor?
-  @objc required override dynamic public init()
   @objc public func setColor(color: AppBoxoSDK.MiniAppColor)
   @objc deinit
+  @objc override dynamic public init()
 }
 @objc(MiniAppColor) public class MiniAppColor : ObjectiveC.NSObject, Swift.Codable {
   @objc public var primaryColor: Swift.String?
@@ -36,7 +36,6 @@ import WebKit
 }
 @_inheritsConvenienceInitializers @objc(AppBoxo) public class AppBoxo : ObjectiveC.NSObject {
   @objc public static let shared: AppBoxoSDK.AppBoxo
-  @objc required override dynamic public init()
   @objc(setConfig:) public func setConfig(config: AppBoxoSDK.Config)
   @objc(getConfig) public func getConfig() -> AppBoxoSDK.Config
   @available(*, deprecated, message: "Use method getMiniApp(appId: authPayload: data:) instead")
@@ -45,6 +44,7 @@ import WebKit
   @objc(getMiniAppWithAppId:) public func getMiniApp(appId: Swift.String) -> AppBoxoSDK.MiniApp?
   @objc(logout) public func logout()
   @objc(destroyAppId:) public func destroy(appId: Swift.String)
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc(MiniAppDelegate) public protocol MiniAppDelegate {

@@ -214,7 +214,6 @@ SWIFT_CLASS_NAMED("AppBoxo")
 @interface AppBoxo : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppBoxo * _Nonnull shared;)
 + (AppBoxo * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setConfig:(Config * _Nonnull)config;
 - (Config * _Nonnull)getConfig SWIFT_WARN_UNUSED_RESULT;
 - (MiniApp * _Nonnull)createMiniAppWithAppId:(NSString * _Nonnull)appId authPayload:(NSString * _Nonnull)authPayload data:(NSString * _Nonnull)data SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use method getMiniApp(appId: authPayload: data:) instead");
@@ -222,6 +221,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppBoxo * _N
 - (MiniApp * _Nullable)getMiniAppWithAppId:(NSString * _Nonnull)appId SWIFT_WARN_UNUSED_RESULT;
 - (void)logout;
 - (void)destroyAppId:(NSString * _Nonnull)appId;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -269,8 +269,8 @@ SWIFT_CLASS_NAMED("MiniAppColor")
 SWIFT_CLASS_NAMED("MiniAppConfig")
 @interface MiniAppConfig : NSObject
 @property (nonatomic, strong) MiniAppColor * _Nullable color;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setColorWithColor:(MiniAppColor * _Nonnull)color;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
