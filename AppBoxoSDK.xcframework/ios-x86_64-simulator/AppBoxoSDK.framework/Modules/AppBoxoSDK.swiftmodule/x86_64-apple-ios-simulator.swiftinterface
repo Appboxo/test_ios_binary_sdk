@@ -32,12 +32,12 @@ import WebKit
 }
 @objc(Config) public class Config : ObjectiveC.NSObject {
   @objc(initWithClientId:) required public init(clientId: Swift.String)
+  @objc override dynamic public init()
   @objc deinit
-  @objc override dynamic public init()
 }
-@_inheritsConvenienceInitializers @objc(AppBoxo) public class AppBoxo : ObjectiveC.NSObject {
+@objc(AppBoxo) public class AppBoxo : ObjectiveC.NSObject {
   @objc public static let shared: AppBoxoSDK.AppBoxo
-  @objc override dynamic public init()
+  @objc required public init(config: AppBoxoSDK.Config)
   @objc(setConfig:) public func setConfig(config: AppBoxoSDK.Config)
   @objc(getConfig) public func getConfig() -> AppBoxoSDK.Config
   @available(*, deprecated, message: "Use method getMiniApp(appId: authPayload: data:) instead")
@@ -46,6 +46,7 @@ import WebKit
   @objc(getMiniAppWithAppId:) public func getMiniApp(appId: Swift.String) -> AppBoxoSDK.MiniApp?
   @objc(logout) public func logout()
   @objc(destroyAppId:) public func destroy(appId: Swift.String)
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc(MiniAppDelegate) public protocol MiniAppDelegate {
