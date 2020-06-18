@@ -15,7 +15,7 @@ import UIKit
 import WebKit
 @objc(MiniAppConfig) public class MiniAppConfig : ObjectiveC.NSObject {
   @objc public var color: AppBoxoSDK.MiniAppColor?
-  @objc required public init(color: AppBoxoSDK.MiniAppColor?)
+  @objc required public init(color: AppBoxoSDK.MiniAppColor? = nil)
   @objc public func setColor(color: AppBoxoSDK.MiniAppColor)
   @objc deinit
   @objc override dynamic public init()
