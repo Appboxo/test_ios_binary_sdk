@@ -187,6 +187,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 @import WebKit;
 #endif
@@ -206,7 +207,77 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class Config;
+@class MiniApp;
 
+SWIFT_CLASS_NAMED("AppBoxo")
+@interface AppBoxo : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppBoxo * _Nonnull shared;)
++ (AppBoxo * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)setConfig:(Config * _Nonnull)config;
+- (Config * _Nonnull)getConfig SWIFT_WARN_UNUSED_RESULT;
+- (MiniApp * _Nonnull)createMiniAppWithAppId:(NSString * _Nonnull)appId authPayload:(NSString * _Nonnull)authPayload data:(NSString * _Nonnull)data SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use method getMiniApp(appId: authPayload: data:) instead");
+- (MiniApp * _Nonnull)getMiniAppWithAppId:(NSString * _Nonnull)appId authPayload:(NSString * _Nonnull)authPayload data:(NSString * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
+- (MiniApp * _Nullable)getMiniAppWithAppId:(NSString * _Nonnull)appId SWIFT_WARN_UNUSED_RESULT;
+- (void)logout;
+- (void)destroyAppId:(NSString * _Nonnull)appId;
+@end
+
+
+
+
+SWIFT_CLASS_NAMED("Config")
+@interface Config : NSObject
+- (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+@protocol MiniAppDelegate;
+@class MiniAppConfig;
+@class UIViewController;
+
+SWIFT_CLASS_NAMED("MiniApp")
+@interface MiniApp : NSObject
+@property (nonatomic, copy) NSString * _Nonnull appId;
+@property (nonatomic, copy) NSString * _Nonnull authPayload;
+@property (nonatomic, copy) NSString * _Nonnull data;
+@property (nonatomic, strong) id <MiniAppDelegate> _Nullable delegate;
+@property (nonatomic, strong) MiniAppConfig * _Nullable config;
+- (nonnull instancetype)initWithAppId:(NSString * _Nonnull)appId authPayload:(NSString * _Nonnull)authPayload data:(NSString * _Nonnull)data OBJC_DESIGNATED_INITIALIZER;
+- (void)openWithViewController:(UIViewController * _Nonnull)viewController;
+- (void)sendEventWithParams:(NSDictionary<NSString *, id> * _Nonnull)params;
+- (void)close;
+- (void)setConfigWithConfig:(MiniAppConfig * _Nullable)config;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("MiniAppColor")
+@interface MiniAppColor : NSObject
+@property (nonatomic, copy) NSString * _Nullable primaryColor;
+@property (nonatomic, copy) NSString * _Nullable secondaryColor;
+@property (nonatomic, copy) NSString * _Nullable tertiaryColor;
+- (nonnull instancetype)initWithPrimary:(NSString * _Nonnull)primary secondary:(NSString * _Nonnull)secondary tertiary:(NSString * _Nonnull)tertiary OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("MiniAppConfig")
+@interface MiniAppConfig : NSObject
+@property (nonatomic, strong) MiniAppColor * _Nullable color;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)setColorWithColor:(MiniAppColor * _Nonnull)color;
+@end
+
+
+SWIFT_PROTOCOL_NAMED("MiniAppDelegate")
+@protocol MiniAppDelegate
+- (void)didReceiveCustomEventWithMiniApp:(MiniApp * _Nonnull)miniApp params:(NSDictionary<NSString *, id> * _Nonnull)params;
+@end
 
 
 
