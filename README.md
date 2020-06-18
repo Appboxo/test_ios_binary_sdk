@@ -66,8 +66,6 @@
   
   
   
-        
-    #import "AppBoxoSDK/AppBoxoSDK-Swift.h"
     
 **To open Miniapps, write this code in your ViewController**
 
