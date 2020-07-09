@@ -44,6 +44,7 @@ import WebKit
   @objc(createMiniAppWithAppId:authPayload:data:) public func createMiniApp(appId: Swift.String, authPayload: Swift.String = "", data: Swift.String = "") -> AppBoxoSDK.MiniApp
   @objc(getMiniAppWithAppId:authPayload:data:) public func getMiniApp(appId: Swift.String, authPayload: Swift.String = "", data: Swift.String = "") -> AppBoxoSDK.MiniApp
   @objc(getMiniAppWithAppId:) public func getMiniApp(appId: Swift.String) -> AppBoxoSDK.MiniApp?
+  @objc(hideAllMiniApps) public func hideAllMiniApps()
   @objc(logout) public func logout()
   @objc(destroyAppId:) public func destroy(appId: Swift.String)
   @objc override dynamic public init()

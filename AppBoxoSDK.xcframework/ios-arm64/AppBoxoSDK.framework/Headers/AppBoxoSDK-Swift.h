@@ -220,6 +220,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AppBoxo * _N
 - (MiniApp * _Nonnull)createMiniAppWithAppId:(NSString * _Nonnull)appId authPayload:(NSString * _Nonnull)authPayload data:(NSString * _Nonnull)data SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use method getMiniApp(appId: authPayload: data:) instead");
 - (MiniApp * _Nonnull)getMiniAppWithAppId:(NSString * _Nonnull)appId authPayload:(NSString * _Nonnull)authPayload data:(NSString * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
 - (MiniApp * _Nullable)getMiniAppWithAppId:(NSString * _Nonnull)appId SWIFT_WARN_UNUSED_RESULT;
+- (void)hideAllMiniApps;
 - (void)logout;
 - (void)destroyAppId:(NSString * _Nonnull)appId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
