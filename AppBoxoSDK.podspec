@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.ios.deployment_target = '11.0'
     s.name = "AppBoxoSDK"
-    s.summary = "AppBox allows to run any web application on the fly."
+    s.summary = "AppBoxo allows to run any web application on the fly."
     s.requires_arc = true
     s.version = "1.3.19"
     s.license = "MIT"
@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
     s.frameworks = "UIKit", "WebKit", "SafariServices", "CoreLocation", "CoreMotion"
     s.homepage = "https://appboxo.com"
     s.documentation_url = "https://docs.appboxo.com/"
-    s.dependency 'SwiftMessages'
     s.swift_version = "4.2"
     
     
