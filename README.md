@@ -226,4 +226,4 @@ Here is an example project: https://github.com/Appboxo/ios-sample-superapp
 
 ## License
 
-AppBoxo is available under the MIT license. See the LICENSE file for more info.
+AppBoxo is available under the Apache 2.0 license. [See LICENSE](https://github.com/Appboxo/ios-sdk-binary/blob/master/LICENSE) for details..
