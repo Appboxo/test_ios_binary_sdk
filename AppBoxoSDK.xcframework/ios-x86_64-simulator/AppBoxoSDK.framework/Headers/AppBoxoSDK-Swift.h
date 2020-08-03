@@ -281,7 +281,13 @@ SWIFT_CLASS_NAMED("MiniAppConfig")
 
 SWIFT_PROTOCOL_NAMED("MiniAppDelegate")
 @protocol MiniAppDelegate
+@optional
 - (void)didReceiveCustomEventWithMiniApp:(MiniApp * _Nonnull)miniApp params:(NSDictionary<NSString *, id> * _Nonnull)params;
+- (void)onLaunchMiniApp:(MiniApp * _Nonnull)miniApp;
+- (void)onResumeMiniApp:(MiniApp * _Nonnull)miniApp;
+- (void)onPauseMiniApp:(MiniApp * _Nonnull)miniApp;
+- (void)onCloseMiniApp:(MiniApp * _Nonnull)miniApp;
+- (void)onErrorMiniApp:(MiniApp * _Nonnull)miniApp message:(NSString * _Nonnull)message;
 @end
 
 
