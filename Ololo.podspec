@@ -3,11 +3,11 @@
 Pod::Spec.new do |s|
     
     s.platform = :ios
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '9.0'
     s.name = "Ololo"
     s.summary = "Testing ololo"
     s.requires_arc = true
-    s.version = "1.0.0"
+    s.version = "6"
     s.license = "Apache 2.0"
     s.author = { "Azamat Kushmanov" => "azamat.kushmanov@gmail.com" }
     s.frameworks = "UIKit", "WebKit", "SafariServices", "CoreLocation", "CoreMotion"
