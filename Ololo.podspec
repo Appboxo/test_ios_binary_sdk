@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
     
     s.platform = :ios
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '10.0'
     s.name = "Ololo"
     s.summary = "Testing ololo"
     s.requires_arc = true
