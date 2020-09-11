@@ -6,19 +6,19 @@
 	<dict>
 		<key>ActionButtonsView.nib/objects-11.0+.nib</key>
 		<data>
-		8gahq4zE9iL9eCbSEotk8zELOEM=
+		GGBgDyLyIFSYXlLOIQTdESJEwRQ=
 		</data>
 		<key>ActionButtonsView.nib/runtime.nib</key>
 		<data>
-		Rji9kcgeLeJJDHH7UZtiEFalsj8=
+		zTWJW+JcYLXceQm8Ind/cLcj2Do=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		lkWWiu7H+EWiNfSTLktLyO/a6Vo=
+		d1u+yl0R0SZ6KDs4CkAfmt7xqR0=
 		</data>
 		<key>FloatingActionButtonsView.nib</key>
 		<data>
-		KL3m4mDMtfqts6ExW3E/rRrZTIM=
+		OB3igmb2xtyrO0MwjqdTiJyJgis=
 		</data>
 		<key>Headers/AppBoxoSDK-Swift.h</key>
 		<data>
@@ -34,39 +34,39 @@
 		</data>
 		<key>LoadingIndicatorView.nib</key>
 		<data>
-		2kR2Ry9+thlY+9pRz8TU2PJ27PA=
+		b5sx66A8r6oMeKtTwu0an9NEP9U=
 		</data>
 		<key>Main.storyboardc/AboutMiniAppTableViewController.nib/objects-11.0+.nib</key>
 		<data>
-		bFy2jLai92uw1FVxrHVmbaPPHCU=
+		lQFH7CXAKtDZyLLmtu5d5ILqzTo=
 		</data>
 		<key>Main.storyboardc/AboutMiniAppTableViewController.nib/runtime.nib</key>
 		<data>
-		PXd9uChS5zhL836iMENrcJnOgLQ=
+		GFSpO7Y8Wi8eabSUGqdirpi16Qw=
 		</data>
 		<key>Main.storyboardc/ConfirmViewController.nib/objects-11.0+.nib</key>
 		<data>
-		h9TTWQSCKpAOy6SGtJz8vrMpZo0=
+		RKj76w2VXkMItiL4N+Hnzk6THs4=
 		</data>
 		<key>Main.storyboardc/ConfirmViewController.nib/runtime.nib</key>
 		<data>
-		1pSP1R/Sv3tCT5TP8foGX5Sax6o=
+		PNzsxm7IbFzZY4tG6hfVnzABIKE=
 		</data>
 		<key>Main.storyboardc/ContextMenuTVC.nib/objects-11.0+.nib</key>
 		<data>
-		c8Mg9izmnu6t/OPQQbCcqlJFrL4=
+		5jU4xnvBf1lNCWbDXvOIAo24mLs=
 		</data>
 		<key>Main.storyboardc/ContextMenuTVC.nib/runtime.nib</key>
 		<data>
-		Mvx59SwFw6VjKiu/SJPVBrdYzlE=
+		fzyJ2hohxEVFtQDdvbAjRLpqYDc=
 		</data>
 		<key>Main.storyboardc/ETj-Kp-U8j-view-Ojz-J6-kpv.nib/objects-11.0+.nib</key>
 		<data>
-		75KVhVTyDMweuHGB9IHM1HnX17Y=
+		+sPjfc00CWVtOaDr/77fKOe4bGU=
 		</data>
 		<key>Main.storyboardc/ETj-Kp-U8j-view-Ojz-J6-kpv.nib/runtime.nib</key>
 		<data>
-		065EFaEemLkaf4+JG+KT2pgooWQ=
+		QnNYwyipjQoZlkgaJ01xa/q6DPc=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
@@ -74,51 +74,51 @@
 		</data>
 		<key>Main.storyboardc/MWr-GG-uA3-view-JFz-Yl-JjE.nib/objects-11.0+.nib</key>
 		<data>
-		053vW3EgBJmXKqRcpS/UxRMh/Xg=
+		SO9FqdbtPVMuXYs76DJ/r3DnnqQ=
 		</data>
 		<key>Main.storyboardc/MWr-GG-uA3-view-JFz-Yl-JjE.nib/runtime.nib</key>
 		<data>
-		Rrsc+xLWzzDLlcaBXGZUQciTUlA=
+		bt2xBFYMn+Y65N8dmiKYeCJdKWw=
 		</data>
 		<key>Main.storyboardc/MiniAppVC.nib/objects-11.0+.nib</key>
 		<data>
-		o4H9FaV5CD4Pd/4sGn9cCEElwUs=
+		kpOQyI2MdJvJOVJRmbciIj9KTsA=
 		</data>
 		<key>Main.storyboardc/MiniAppVC.nib/runtime.nib</key>
 		<data>
-		Ia3e72ODp0i0xrO488S81kcn5a8=
+		JCT97BmExcpoU42QV+IdXZEswWU=
 		</data>
 		<key>Main.storyboardc/SettingsTVC.nib/objects-11.0+.nib</key>
 		<data>
-		BWQoc1QcVZ5FpICi6kvLo3eukM8=
+		BGoy1fzP4b57HssiAuxRLetD2EU=
 		</data>
 		<key>Main.storyboardc/SettingsTVC.nib/runtime.nib</key>
 		<data>
-		N3N0q+jlj8mYyCUZl+BlF34jv28=
+		XBSRe9d9vIsCw1x+00oE+PSqkko=
 		</data>
 		<key>Main.storyboardc/YZf-ns-fUB-view-8cd-eQ-J7v.nib/objects-11.0+.nib</key>
 		<data>
-		7WABN34ixuEUHI4NPkWKQZ6VF7I=
+		aUi+WTIrRtVCKwkKr0Qs1oFKB9Q=
 		</data>
 		<key>Main.storyboardc/YZf-ns-fUB-view-8cd-eQ-J7v.nib/runtime.nib</key>
 		<data>
-		sI0gmy/qExd89ccRcETMVvXwe88=
+		KhKPR/LQsMN8TJu3pifir/n+S6g=
 		</data>
 		<key>Main.storyboardc/gcO-JE-pAw-view-Nj2-3c-iYZ.nib/objects-11.0+.nib</key>
 		<data>
-		+wqbDrVKbq3NNp0m5NIkKpYtR7U=
+		Iqp0973g0vp+QvoFPgQKEd5t+Jc=
 		</data>
 		<key>Main.storyboardc/gcO-JE-pAw-view-Nj2-3c-iYZ.nib/runtime.nib</key>
 		<data>
-		rQjfT0TF72TAM7sBVZcaf+GnKJY=
+		0z6Zc6kqYhM+xrVRoW2aqcF/BeU=
 		</data>
 		<key>Main.storyboardc/n91-Ix-sE9-view-hfp-5C-lJE.nib/objects-11.0+.nib</key>
 		<data>
-		5ogG6QR7HHjIyEF/B/69cC12h5g=
+		PjPNq5+gGGQLAALVm44wiZ8abE8=
 		</data>
 		<key>Main.storyboardc/n91-Ix-sE9-view-hfp-5C-lJE.nib/runtime.nib</key>
 		<data>
-		sb1j3FyC36yMv4A7gm2zEW34/WA=
+		PL1QtGinr1yJNDxSgRBtVV/kVXk=
 		</data>
 		<key>Modules/AppBoxoSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -174,11 +174,11 @@
 		</data>
 		<key>RetryView.nib/objects-11.0+.nib</key>
 		<data>
-		KgITVLtRWH5OQa9mUH6mzQGwRVA=
+		Y43V+vI2zzlCLSQgT9T6T9Hmmic=
 		</data>
 		<key>RetryView.nib/runtime.nib</key>
 		<data>
-		kf0zZp5R0tPZGXrpgz2aKOJiJg8=
+		111B3e9Oxob26G/AOabrcA4PbkI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -187,44 +187,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8gahq4zE9iL9eCbSEotk8zELOEM=
+			GGBgDyLyIFSYXlLOIQTdESJEwRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OdLwhBlXXi75hKMkDmobpVelShBSzBB5QC6Qggv6jgU=
+			N8wCVO8gMSxLQnVSbe6st5G6/u2wx+ftbD+LPPQ0dW4=
 			</data>
 		</dict>
 		<key>ActionButtonsView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Rji9kcgeLeJJDHH7UZtiEFalsj8=
+			zTWJW+JcYLXceQm8Ind/cLcj2Do=
 			</data>
 			<key>hash2</key>
 			<data>
-			fpWDrsoPWF5m15ymDhLAkEl7hUd9nz2vNxQTzw+WklU=
+			CaUnhlNYwTfwn5k4mFdw04oGgZB8AVxgkmSOnRvD09A=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lkWWiu7H+EWiNfSTLktLyO/a6Vo=
+			d1u+yl0R0SZ6KDs4CkAfmt7xqR0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hb31yROLWk2Z3T5os/Qn6o5oxvRdY/gl0p84KWAzWk8=
+			p8Bb+O7SagGBSjRDegoqRScB8Rwp8SnSL2aPsXz5uVk=
 			</data>
 		</dict>
 		<key>FloatingActionButtonsView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KL3m4mDMtfqts6ExW3E/rRrZTIM=
+			OB3igmb2xtyrO0MwjqdTiJyJgis=
 			</data>
 			<key>hash2</key>
 			<data>
-			9er5LhTY1NnurKpb6N7vCDyZv0r5TDC+WFS+wzqR+rw=
+			m1OVExJfeZDw1M6BdiYIf1yjbQdtWrSUCD2sjMzqNxY=
 			</data>
 		</dict>
 		<key>Headers/AppBoxoSDK-Swift.h</key>
@@ -253,99 +253,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2kR2Ry9+thlY+9pRz8TU2PJ27PA=
+			b5sx66A8r6oMeKtTwu0an9NEP9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			EishmpmIMZi50bO7ZDXMh/rWsnCxUGevHA+AfdbDO3Y=
+			uy7lj3jAL4Qgsgw8B/ujuMfTPqieJmXqfBXFWtIILWo=
 			</data>
 		</dict>
 		<key>Main.storyboardc/AboutMiniAppTableViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFy2jLai92uw1FVxrHVmbaPPHCU=
+			lQFH7CXAKtDZyLLmtu5d5ILqzTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lGHRFJ7hPbSmsNsBzauFErqTKNVgOJIQ+fE32AlYikQ=
+			cGYk1drC9XuBOgd18jsB+4dWHt8eG7LGq1gT/TFhe50=
 			</data>
 		</dict>
 		<key>Main.storyboardc/AboutMiniAppTableViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PXd9uChS5zhL836iMENrcJnOgLQ=
+			GFSpO7Y8Wi8eabSUGqdirpi16Qw=
 			</data>
 			<key>hash2</key>
 			<data>
-			P4VlJOVQkVCuG99DIKW1Z9NRjo9DugSmKz/DM1bjbN8=
+			+34LxA1GwNnMsAASZA7J8zG9SyVQ81w9NX0WxM+8VQ8=
 			</data>
 		</dict>
 		<key>Main.storyboardc/ConfirmViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h9TTWQSCKpAOy6SGtJz8vrMpZo0=
+			RKj76w2VXkMItiL4N+Hnzk6THs4=
 			</data>
 			<key>hash2</key>
 			<data>
-			g0XWzC/JpfsU6L5q0aXM0lkXpn06AEtIdd/tG5lshPs=
+			AgEY5DEWgRuISCaH0jzpGiNuly6pQ4ke5bIP7QL6WJc=
 			</data>
 		</dict>
 		<key>Main.storyboardc/ConfirmViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1pSP1R/Sv3tCT5TP8foGX5Sax6o=
+			PNzsxm7IbFzZY4tG6hfVnzABIKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			SQIFl77g6GbSVscUOCVEtaxdBpyDDITm6aDVyogmJvU=
+			DR2idR/ZF+vIUcVLvWugICvzAEuSwONfihVFMyElNOg=
 			</data>
 		</dict>
 		<key>Main.storyboardc/ContextMenuTVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c8Mg9izmnu6t/OPQQbCcqlJFrL4=
+			5jU4xnvBf1lNCWbDXvOIAo24mLs=
 			</data>
 			<key>hash2</key>
 			<data>
-			rs123xdjZqALpDBBe5hOxGSeUMurQy41RCESID74+F0=
+			DrQeISiUjUILe8j11Ks/4CSONRrjPq/hO7HP9X6grsg=
 			</data>
 		</dict>
 		<key>Main.storyboardc/ContextMenuTVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mvx59SwFw6VjKiu/SJPVBrdYzlE=
+			fzyJ2hohxEVFtQDdvbAjRLpqYDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jxCA49Vnbg93pNdWFZuvJ+gbpciy2kSW7wRCmifRSFg=
+			X31MT6JHnwcLWiRkVmD5VDsLn8VxAjvboUbfczhQA4Q=
 			</data>
 		</dict>
 		<key>Main.storyboardc/ETj-Kp-U8j-view-Ojz-J6-kpv.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			75KVhVTyDMweuHGB9IHM1HnX17Y=
+			+sPjfc00CWVtOaDr/77fKOe4bGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QXqL8k5UvjpJwWk+Ds/pw9Tvv1+bPwf6ueiNscPyU30=
+			ej57C45NK3QERHT0yKTkqMCAmcgOnaqgE52NVmCU2FQ=
 			</data>
 		</dict>
 		<key>Main.storyboardc/ETj-Kp-U8j-view-Ojz-J6-kpv.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			065EFaEemLkaf4+JG+KT2pgooWQ=
+			QnNYwyipjQoZlkgaJ01xa/q6DPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			GsU2i+Q95lN+u5i7c2sRag3HyWkQfjnLvgFyqX5898g=
+			qjFxh7JV/YwamJuGs4VB26VKWEvB89VWTmW8H1ttNfU=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
@@ -363,132 +363,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			053vW3EgBJmXKqRcpS/UxRMh/Xg=
+			SO9FqdbtPVMuXYs76DJ/r3DnnqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT9UGiFORrNKOR1+17oXb915a2cWGhb+/EUN914mATo=
+			0MBZEggRhlyat7hFTta3Jtftfth8fpdtEl8C5t0ZG3g=
 			</data>
 		</dict>
 		<key>Main.storyboardc/MWr-GG-uA3-view-JFz-Yl-JjE.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Rrsc+xLWzzDLlcaBXGZUQciTUlA=
+			bt2xBFYMn+Y65N8dmiKYeCJdKWw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9WhDltcDuSCSlwBgiaGCNumPdadkV8jqxyKWNWXfjLA=
+			Xor0l1Jvid3jpT+bxZ/QyBcIAWf5iMqEwwp3Xox+tQw=
 			</data>
 		</dict>
 		<key>Main.storyboardc/MiniAppVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o4H9FaV5CD4Pd/4sGn9cCEElwUs=
+			kpOQyI2MdJvJOVJRmbciIj9KTsA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DrdgjlTSuYG/x/jToM8HeXlFI83dRYRnr7zlibv08kU=
+			Z95GTCGwIml3pCXUl3J1zsAh57NT3BkhhTysKQPbivU=
 			</data>
 		</dict>
 		<key>Main.storyboardc/MiniAppVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ia3e72ODp0i0xrO488S81kcn5a8=
+			JCT97BmExcpoU42QV+IdXZEswWU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ndM3uqWme02mcFvss1C67bEnMXYu9oDa5frL+Uqf5+M=
+			f3rZK7wa6FcyZXiF0terHOwD21hCQ6VRnSRW/sqlv90=
 			</data>
 		</dict>
 		<key>Main.storyboardc/SettingsTVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BWQoc1QcVZ5FpICi6kvLo3eukM8=
+			BGoy1fzP4b57HssiAuxRLetD2EU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lY0MXEGOPjZ496/jPpePilbSOitjJWjTFV9rDs8YO4Y=
+			kpuceuGOoNCK030s1Qc8eScjAmBH9Q1n7GfBukK9pro=
 			</data>
 		</dict>
 		<key>Main.storyboardc/SettingsTVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N3N0q+jlj8mYyCUZl+BlF34jv28=
+			XBSRe9d9vIsCw1x+00oE+PSqkko=
 			</data>
 			<key>hash2</key>
 			<data>
-			ihIYmoPdLddQnEv6ycFBxO7G40S2DJazFEYbtTBe/JM=
+			R/GZkcEpEtMmOgp0n3BYGm+2JKpj9Qln7TQdiBGLaoY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/YZf-ns-fUB-view-8cd-eQ-J7v.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7WABN34ixuEUHI4NPkWKQZ6VF7I=
+			aUi+WTIrRtVCKwkKr0Qs1oFKB9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Za4HQI4F1GzUf/72/0kQzrUf7JEQvo6bpLEGh/fQe8g=
+			FTfz9M6ckV6Af+Juv0u+3ij2g8h3DDUyJBbwqjX7/wY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/YZf-ns-fUB-view-8cd-eQ-J7v.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sI0gmy/qExd89ccRcETMVvXwe88=
+			KhKPR/LQsMN8TJu3pifir/n+S6g=
 			</data>
 			<key>hash2</key>
 			<data>
-			2LbgEMf3Ag6RxqEQBuvS4m1d2B1kVqIOvcmA+K/E3U8=
+			bzM6geEnniRdV5o9E9evbO9y7tAfBPZoom3Wcrrgi7U=
 			</data>
 		</dict>
 		<key>Main.storyboardc/gcO-JE-pAw-view-Nj2-3c-iYZ.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+wqbDrVKbq3NNp0m5NIkKpYtR7U=
+			Iqp0973g0vp+QvoFPgQKEd5t+Jc=
 			</data>
 			<key>hash2</key>
 			<data>
-			zuWEpIXSFUbqeSFYvVJNGNZl1ii0SyXLDoAjhoOIw5o=
+			I/1bqotfKkIShBrgbgD/5Xtx+dh+MtsH10l5/OQgHoU=
 			</data>
 		</dict>
 		<key>Main.storyboardc/gcO-JE-pAw-view-Nj2-3c-iYZ.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rQjfT0TF72TAM7sBVZcaf+GnKJY=
+			0z6Zc6kqYhM+xrVRoW2aqcF/BeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Bc/2b/SgVT1ateF2LlPwqsi5bCWTvczX7dPFqX1cto=
+			IRi3QoQxvwDssUJxMd9ZO4Y7HchWM2mdiK7YblSllmc=
 			</data>
 		</dict>
 		<key>Main.storyboardc/n91-Ix-sE9-view-hfp-5C-lJE.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5ogG6QR7HHjIyEF/B/69cC12h5g=
+			PjPNq5+gGGQLAALVm44wiZ8abE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			YTSasOil0RwgkNgcato6LFpT0vrjpDcnPQmC98N3H30=
+			Yz9FR+sLHjiCWhPadrKj3hU3zs23aHxtqZRZfcoMAqA=
 			</data>
 		</dict>
 		<key>Main.storyboardc/n91-Ix-sE9-view-hfp-5C-lJE.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sb1j3FyC36yMv4A7gm2zEW34/WA=
+			PL1QtGinr1yJNDxSgRBtVV/kVXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ecB6V3GM3HHe5dD8/C/SLRq2Ab4uuCyfx4C1rVAojY=
+			zs1nASsmaSt3UvYr4KqcxQvPBwELiW5Mm8IzLmtteQQ=
 			</data>
 		</dict>
 		<key>Modules/AppBoxoSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -638,22 +638,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KgITVLtRWH5OQa9mUH6mzQGwRVA=
+			Y43V+vI2zzlCLSQgT9T6T9Hmmic=
 			</data>
 			<key>hash2</key>
 			<data>
-			8tjYUI3aL+nqMSw+gInZCKfWUi60LMOVaJmKfhKBNtE=
+			hd8lyqB9vOKUFZkzl22OOx0w5HvLECUEAVSD1VDziYg=
 			</data>
 		</dict>
 		<key>RetryView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kf0zZp5R0tPZGXrpgz2aKOJiJg8=
+			111B3e9Oxob26G/AOabrcA4PbkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			HTQClO3FS5Zh92v+aIR/CbdfykfTWyGzhayj3zyLjpA=
+			oPsci9f+R1EO7av41RrcGi6Iglg9Glq25nVSGPGcCag=
 			</data>
 		</dict>
 	</dict>
