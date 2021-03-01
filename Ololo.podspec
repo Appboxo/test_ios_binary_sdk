@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.name = "Ololo"
     s.summary = "Testing ololo"
     s.requires_arc = true
-    s.version = "24"
+    s.version = "25"
     s.license = "Apache 2.0"
     s.author = { "Azamat Kushmanov" => "azamat.kushmanov@gmail.com" }
     s.frameworks = "UIKit", "WebKit", "SafariServices", "CoreLocation", "CoreMotion"
